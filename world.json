@@ -1,0 +1,64 @@
+{
+  "title": "Liminal Horror",
+  "id": "liminal-horror",
+  "system": "custom-system-builder",
+  "coreVersion": "11.315",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11.315"
+  },
+  "systemVersion": "3.0.0",
+  "lastPlayed": "Mon Dec 04 2023 17:49:30 GMT-0500 (Eastern Standard Time)",
+  "safeMode": false,
+  "packs": [
+    {
+      "label": "Weapons",
+      "type": "Item",
+      "name": "weapons",
+      "path": "packs/weapons",
+      "system": "custom-system-builder",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "label": "Creature Compendium",
+      "type": "Actor",
+      "name": "creature-compendium",
+      "path": "packs/creature-compendium",
+      "system": "custom-system-builder",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "label": "i-kräla creatures",
+      "type": "Actor",
+      "name": "i-krala-creatures",
+      "path": "packs/i-krala-creatures",
+      "system": "custom-system-builder",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "label": "i-kralla equipment",
+      "type": "Item",
+      "name": "i-kralla-equipment",
+      "path": "packs/i-kralla-equipment",
+      "system": "custom-system-builder",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ],
+  "playtime": 10074
+}
